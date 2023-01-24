@@ -43,12 +43,13 @@
 			_printf("%S\n", "Best\nSchool");
 			return (0);
 	}
+	```
 	===alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 main.c===
+	``` bash
 	alex@ubuntu:~/c/printf$ ./a.out
 	Best\x0ASchool
 	alex@ubuntu:~/c/printf$
-	```
-
+```
 6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
    * Handle the following conversion specifier: p.
 
