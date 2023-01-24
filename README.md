@@ -21,7 +21,7 @@
    * S : prints the string
    * Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, following by the ASCII code value in hexasecimal(upper case - always @ characters)
              
-              alex@ubuntu:~/c/printf$ cat main.c
+              <code>alex@ubuntu:~/c/printf$ cat main.c
 #include "main.h"
 
 /**
@@ -37,7 +37,7 @@ int main(void)
 alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 main.c
 alex@ubuntu:~/c/printf$ ./a.out
 Best\x0ASchool
-alex@ubuntu:~/c/printf$
+     alex@ubuntu:~/c/printf$</code>
 </h6>
 <h6> 6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
    * Handle the following conversion specifier: p.</h6>
