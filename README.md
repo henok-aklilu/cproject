@@ -1,9 +1,9 @@
 # GROUP PROJECT
 <h1> <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/228/printf.png"?raw=true" /> </h1>
 <h1> 0x12. C -printf team project </h1>
-<h3>       * By: Julien Barbier, co-founder & CEO </h3>
-<h3>       * Project to be done in teams of 2 people (your team:Henok Aklilu and Binyam Mamo)
-<h1 align="center" ><b>TASK</b></h1>
+<h4>       * By: Julien Barbier, co-founder & CEO </h4>
+<h4>       * Project to be done in teams of 2 people (Our team: Henok Aklilu and Binyam Mamo) </h4>
+<h1 align="center"><b>TASK</b></h1>
  
 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
      Repo:
@@ -12,11 +12,11 @@
 
 2. With a face like mine, I do better in print
  Handle the following custom conversion specifiers:
-  * b: the unsigned int argument is converted to binary</h6>
+		* b: the unsigned int argument is converted to binary</h6>
 
 3. What one has not experienced, one will never understand in print
   Handle the following custom conversion specifiers:
-   * u , o ,x and X
+		* u , o ,x and X
 	
 4. Nothing in fine print is ever good news
    * Use a local buffer of 1024 chars in order to call write as little as possible.
@@ -27,24 +27,24 @@
    * Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, following by the ASCII code value in hexasecimal(upper case - always @ characters)
 
 
-```
-alex@ubuntu:~/c/printf$ cat main.c
-#include "main.h"
+```bash
+		alex@ubuntu:~/c/printf$ cat main.c
+		#include "main.h"
 
-/**
- * main - Entry point
- *
- * Return: Always 0
- */
-int main(void)
-{
-    _printf("%S\n", "Best\nSchool");
-    return (0);
-}
-alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 main.c
-alex@ubuntu:~/c/printf$ ./a.out
-Best\x0ASchool
-alex@ubuntu:~/c/printf$
+		/**
+		 * main - Entry point
+		 *
+		 * Return: Always 0
+		 */
+		int main(void)
+		{
+				_printf("%S\n", "Best\nSchool");
+				return (0);
+		}
+		alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 main.c
+		alex@ubuntu:~/c/printf$ ./a.out
+		Best\x0ASchool
+		alex@ubuntu:~/c/printf$
 ```
 
 6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
