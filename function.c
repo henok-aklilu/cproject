@@ -8,6 +8,7 @@
  * @width: stores the field width
  * @prec: precision of the output
  * @size: size of the output
+ *
  * Return: the length of the output
  */
 int print_char(va_list args, char buffer[],
@@ -28,6 +29,7 @@ int print_char(va_list args, char buffer[],
  * @width: the field width
  * @prec: precision if the output
  * @size: size of the output
+ *
  * Return: length of output
  */
 int print_string(va_list args, char buffer[],
@@ -44,7 +46,7 @@ int print_string(va_list args, char buffer[],
 	if (str == NULL)
 	{
 		str = "(null)";
-		if (precision >= 6)
+		if (prec >= 6)
 			str = "      ";
 	}
 
@@ -84,6 +86,7 @@ int print_string(va_list args, char buffer[],
  * @width: field width of output
  * @prec: precision of the output
  * @size: output size
+ *
  * Return: output length
  */
 int print_percent(va_list args, char buffer[],
