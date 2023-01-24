@@ -16,10 +16,10 @@
    * u , o ,x and X</h6>
 <h6> 4. Nothing in fine print is ever good news
    * Use a local buffer of 1024 chars in order to call write as little as possible.</h6>
-  <h6>   5. My weakness is wearing too much leopard print
+     5. My weakness is wearing too much leopard print
    handle the folloeing custom conversion specifier:
    * S : prints the string
-   * Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, following by the ASCII code value in hexasecimal(upper case - always @ characters) </h6>
+   * Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, following by the ASCII code value in hexasecimal(upper case - always @ characters)
              
 ```
 
