@@ -1,8 +1,8 @@
 # GROUP PROJECT
 <h1> <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/228/printf.png"?raw=true" /> </h1>
 <h1> 0x12. C -printf team project </h1>
-<h4>       * By: Julien Barbier, co-founder & CEO </h4>
-<h4>       * Project to be done in teams of 2 people (Our team: Henok Aklilu and Binyam Mamo) </h4>
+<h4>   * By: Julien Barbier, co-founder & CEO </h4>
+<h4>   * Project to be done in teams of 2 people (Our team: Henok Aklilu and Binyam Mamo) </h4>
 <h1 align="center"><b>TASK</b></h1>
  
 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
@@ -27,10 +27,10 @@
    * Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, following by the ASCII code value in hexasecimal(upper case - always @ characters)
 
 
-	```c
 	```bash
 	alex@ubuntu:~/c/printf$ cat main.c
 	```
+	```c
 	#include "main.h"
 
 	/**
@@ -54,9 +54,9 @@
 
 7. The big print gives and the small print takes away
   * Handle the following flag characters for non-custom conversion specifiers:
-       * + 
-       * space
-       * #
+   * + 
+   * space
+   * #
 
 8. Sarcasm is lost in print
    * Handle the following length modifiers for non-custom conversion specifiers: 
@@ -71,7 +71,7 @@
      * Handle the field width for non-custom conversion specifiers.
 
 11. It's depressing when you're still around and your albums are out of print  
-      * Handle the 0 flag character for non-custom conversion specifiers.
+     * Handle the 0 flag character for non-custom conversion specifiers.
 
 12. Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection
      * Handle the - flag character for non-custom conversion specifiers.
@@ -84,6 +84,6 @@
       * Handle the following custom conversion specifier:
       * R: prints the rot13'ed string
  
-15. *
+15. \*
       All the above options work well together.
 
