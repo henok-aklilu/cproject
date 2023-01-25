@@ -47,3 +47,4 @@ int handle_print(const char *fmt, int *ind, va_list args, char buffer[],
 	}
 	return (printed_chars);
 }
+

@@ -4,7 +4,7 @@
  * handle_write_char - handles the writing of a char
  * @c: character
  * @buffer: char array
- * @flags: format flags.
+ * @flags: format flags
  * @width: field width.
  * @prec: output precision
  * @size: output size
@@ -248,3 +248,5 @@ int write_pointer(char buffer[], int ind, int length,
 		buffer[--ind] = extra_c;
 	return (write(1, &buffer[ind], BUFF_SIZE - ind - 1));
 }
+
+
