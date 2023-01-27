@@ -1,4 +1,4 @@
-# GROUP PROJECT
+#    GROUP PROJECT
 <h1> <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/228/printf.png"?raw=true" /> </h1>
 <h1> 0x12. C -printf team project </h1>
 <h4>   * By: Julien Barbier, co-founder & CEO </h4>
